@@ -1,0 +1,141 @@
+:root{
+    scroll-behavior: smooth;
+    --clr-primary: #eb2c3a;
+}
+
+body{
+    color: white;
+    background-color: #212529;
+}
+
+h1 {
+    text-align: center;
+}
+
+.games{
+    display:grid;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.game{
+    background-color: white;
+    color: #212529;
+
+    max-width: 1000px;
+    margin: 0 1rem;
+
+    border: 2px solid var(--clr-primary);
+    overflow: hidden;
+    box-shadow: 8px 8px 8px -5px var(--clr-primary);
+
+    > * {
+        padding: .5rem 1rem;
+    }
+
+    display: grid;
+    grid-template-areas: 
+        "name name name"
+        "person person person"
+        "img img img"
+        "type players duration"
+        "description description description";
+
+    @media (min-width: 1000px) {
+        grid-template-areas: 
+            "img name name name person person person"
+            "img type type players players duration duration"
+            "img description description description description description description";
+        grid-template-columns: 256px 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 3rem 3rem auto;
+    }
+
+    .image{
+        grid-area: img;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 1rem 0 2rem;
+        @media (min-width: 1000px) {
+            margin: 0;
+            border-right: 2px solid var(--clr-primary);
+        }
+        
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    
+    .name{
+        grid-area: name;
+        margin: 0;
+
+        display: grid;
+        align-items: center;
+
+        background-color: var(--clr-primary);
+        color: white;
+    }
+
+    .person{
+        grid-area: person;
+        font-weight: 700;
+        font-style: italic;
+
+        display: grid;
+        align-items: center;
+
+        background-color: var(--clr-primary);
+        color: white;
+    }
+
+    .detail{
+        background-color: #eaeaea;
+        font-weight: 300;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .type{
+        grid-area: type;
+    }
+
+    .players{
+        grid-area: players;
+
+        &::before{
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            margin-right: .5rem;
+            content: "\f500";
+        }
+    }
+
+    .duration{
+        grid-area: duration;
+        
+        &::before{
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            margin-right: .5rem;
+            content: "\f017";
+        }
+    }
+    
+
+    .description{
+        grid-area: description;
+    }
+}
+
+.centered-mobile{
+    text-align: center;
+    @media (min-width: 1000px) {
+        text-align: left;
+    }
+}

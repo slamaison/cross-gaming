@@ -1,0 +1,57 @@
+mixin simplifyDuration(duration)
+    - var hours = parseInt(duration / 60)
+    - var minutes = duration % 60
+    if(hours === 0)
+        | !{minutes} minutes
+    else
+        if (minutes === 0)
+            | !{hours}h
+        else 
+            | !{hours}h!{minutes}
+
+mixin playersToString(min,max)
+    if(min === max)
+        | !{min} joueurs
+    else
+        | !{min} à !{max} joueurs
+
+mixin durationToString(min,max)
+    if min === max
+        | Environ 
+        +simplifyDuration(min)
+    else if (min < 60 && max < 60)
+        | De !{min} à !{max} minutes
+    else
+        | De&nbsp;
+        +simplifyDuration(min)
+        | &nbsp;à&nbsp;
+        +simplifyDuration(max)
+
+html(lang="fr")
+    head
+        title Liste des jeux
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="css/style.min.css")
+        link(href="/fontawesome/css/fontawesome.css" rel="stylesheet")
+        link(href="/fontawesome/css/solid.css" rel="stylesheet")
+        
+    body
+        .header
+            h1 Cross Gaming Night
+        .games
+            each game in games
+                .game(id=game.name.split(" ").join("") data-duration-min=game.duration.min data-duration-max=game.duration.max  data-players-min=game.players.min data-players-max=game.players.max)
+                    .image
+                        img(src="images/" + game.image alt=game.name)
+                    h2.name.centered-mobile !{game.name}
+                    .person.centered-mobile !{game.person}
+                    .detail.type.centered-mobile !{game.type}
+                    .detail.players.centered-mobile
+                        +playersToString(game.players.min,game.players.max)
+                    .detail.duration.centered-mobile 
+                        +durationToString(game.duration.min,game.duration.max)
+                    .description
+                        each paragraph in game.description 
+                            p !{paragraph}

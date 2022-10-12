@@ -1,0 +1,224 @@
+{
+    "games":[
+        {
+            "name": "Skyjo",
+            "image": "skyjo.jpg",
+            "person": "Olivier Beau",
+            "type": "Jeu de cartes",
+            "players":{"min":2,"max":8},
+            "duration": {"min":30,"max":30},
+            "description":[
+                "Skyjo est un jeu de cartes où le but est de comptabiliser le moins de points possibles à la fin de la partie sur un board de 3×4 cartes.",
+                "Pour y arriver, il faudra avoir du nez pour retourner les bonnes cartes, de bons yeux pour les interchanger, et de la chance pour piocher celles qui vous manquent."
+            ]
+        },
+        {
+            "name": "6 qui prend !",
+            "image": "6_qui_prend.jpg",
+            "person": "Olivier Beau",
+            "type": "Jeu de cartes",
+            "players": {"min":2,"max":10},
+            "duration": {"min":45,"max":45},
+            "description":[
+                "Dans ce jeu de défausse, il vous faudra placer vos cartes à tête de bœuf dans les différentes rangées sans jamais poser la 6e !",
+                "Les choix de cartes étant secrets et simultanés, il vous faudra être un poil calculateur pour ne pas finir une rangée et ramasser le tas de têtes de bœuf et ses pénalités."
+            ]
+        },
+        {
+            "name": "The Game",
+            "image": "the_game.jpg",
+            "person": "Quentin Hiss",
+            "type": "Jeu de cartes collaboratif",
+            "players": {"min":1,"max":5},
+            "duration": {"min":30,"max":30},
+            "description":[
+                "Dans ce jeu, il vous faudra collaborer pour tous vous débarrasser de vos cartes sur 2 piles ascendantes et 2 piles descendantes.",
+                "Les joueurs peuvent discuter, mais juste pour se dire des trucs comme « ne joue pas sur cette pile » ou « pas trop gros ici, s'il te plait »."
+            ]
+        },
+        {
+            "name": "Gosu Tactics",
+            "image": "gosu_tactics.jpg",
+            "person": "Quentin Hiss",
+            "type": "Jeu de cartes",
+            "players": {"min":2,"max":4},
+            "duration": {"min":45,"max":45},
+            "description":[
+                "Construisez votre armée de gobelins pour écraser vos adversaires. Le premier joueur à gagner trois batailles gagne la partie.",
+                "Des effets se déclenchent en fonction de la carte posée et des combinaisons / positions avec les autres cartes déjà posées."
+            ]
+        },
+        {
+            "name": "Jeu maison basé sur Citadelles",
+            "image": "quentin_hiss.jpg",
+            "person": "Quentin Hiss",
+            "type": "Cartes / collection / ressources",
+            "players": {"min":2,"max":8},
+            "duration": {"min":120,"max":120},
+            "description":[
+                "Mécaniques similaires à Citadelles, en plus complexes avec plus de ressources et de types de cartes différentes"
+            ]
+        },
+        {
+            "name": "Detective Club",
+            "image": "detective_club.jpg",
+            "person": "Jean Herbaut",
+            "type": "Jeu à rôle caché",
+            "players": {"min":4,"max":8},
+            "duration": {"min":30,"max":60},
+            "description":[
+                "Un jeu d'ambiance malin et subtil, dans lequel imagination, improvisation et bluff seront vos alliés pour argumenter votre choix autour de somptueuses illustrations.",
+                "L’informateur choisit un mot en rapport avec deux cartes Preuve qu’il exposera aux yeux de tous et le note secrètement sur tous les carnets sauf un.",
+                "Les détectives consultent leurs carnets et poseront deux cartes en rapport avec le mot.",
+                "Le voleur observe les cartes jouées et improvise pour ne pas être démasqué.",
+                "Le mot est révélé, chacun argumente son choix de cartes puis les détectives votent pour désigner le voleur."
+            ]
+        },
+        {
+            "name": "Bang!",
+            "image": "bang.jpg",
+            "person": "Ewald Janin / Julien Munch",
+            "type": "Jeu de cartes à rôle caché",
+            "players": {"min":2,"max":7},
+            "duration": {"min":30,"max":60},
+            "description":[
+                "Incarnez un shérif, un hors-la-loi ou un renégat pour des affrontements sanglants !",
+                "Chaque rôle a ses propres objectifs et ses conditions de victoire : le shérif doit survivre, les hors-la-loi doivent tenter de l'éliminer, tandis que le renégat doit vaincre tout le monde. Mais seul le Shérif est connu de tous.",
+                "Analyser le jeu des autres joueurs afin de comprendre rapidement la situation. Détectez qui sont vos alliés et vos opposants et gérer votre main le plus efficacement possible."
+            ]
+        },
+        {
+            "name": "The Mind Extreme",
+            "image": "the_mind_extreme.jpg",
+            "person": "Ewald Janin",
+            "type": "Jeu de coopération télépathique",
+            "players": {"min":2,"max":4},
+            "duration": {"min":20,"max":20},
+            "description":[
+                "Au début de la partie, chaque joueur se voit distribuer une carte, face cachée. Le jeu comporte 2 piles de cartes, une rouge et une blanche, chacune numérotée de 1 à 50",
+                "L'objectif est, sans communication entre les joueurs, d'arriver à empiler sur la table les cartes dans le bon ordre numérique. Quand un joueur pense que c'est à son tour de mettre une carte (en fonction du numéro de sa carte, que lui seul connaît), il doit la poser sur la table. À chaque manche, une carte de plus est distribuée à chaque joueur.",
+                "On peut faire varier la difficulté en n'utilisant qu'une couleur de carte pour apprendre le jeu au début.",
+                "Idéal pour travailler la cohésion d'une équipe et la télépathie !"
+            ]
+        },
+        {
+            "name": "Code Names",
+            "image": "Codenames.jpg",
+            "person": "Maureen Perrin et Sathya Bin",
+            "type": "Jeu d'ambiance",
+            "players": {"min":2,"max":8},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Codenames est un jeu d’association d’idées dans lequel les joueurs, répartis en deux équipes, devront tour à tour faire deviner à leurs coéquipiers un ensemble de mots qui leur sont attribués.",
+                "Une seule règle : faire deviner avec un seul indice et un chiffre correspondant au nombre de mots à trouver.",
+                "Prenez garde de ne pas découvrir les mots de vos concurrents ou pire … le mot Piège.",
+                "Possibilité de combiner avec la version Images (<a href='#CodeNamesImages'>ici</a>) !!!"
+            ]
+        },
+        {
+            "name": "Dixit",
+            "image": "dixit.jpg",
+            "person": "Marion Scala",
+            "type": "Jeu d'ambiance",
+            "players": {"min":3,"max":8},
+            "duration": {"min":30,"max":30},
+            "description":[
+                "Dixit est un jeu de société enchanteur qui vous invite à vous laisser porter par votre imagination. Découvrez 84 illustrations oniriques sur de grandes cartes et interprétez ces images énigmatiques.",
+                "Un joueur conteur sélectionne une carte de sa main et énonce un thème en rapport avec l’illustration. Les autres joueurs choisissent une carte de leur main qui leur évoque ce thème.",
+                "On mélange puis on révèle toutes les images : les joueurs doivent retrouver la carte du conteur."
+            ]
+        },
+        {
+            "name": "Zombicide Rue Morgue",
+            "image": "Zombicide-Rue-Morgue.jpg",
+            "person": "Julien Munch",
+            "type": "Jeu de stratégie co-op scénarisé",
+            "players": {"min":2,"max":10},
+            "duration": {"min":30,"max":60},
+            "description":[
+                "Regroupez-vous. Équipez-vous. Gagnez des niveaux. TUEZ-LES !",
+                "Personne ne sait comment ça a commencé, mais c’est bien là et il faut faire avec : les morts se relèvent. Affamés. De chair humaine. Les états et les sociétés se sont effondrées en un instant, ce dont les Survivants se moquent bien. Car après tout, ils cherchent à s’en sortir, le reste, ils s’en foutent. Ces Survivants sont en quête d’un refuge, d’équipement. Mais ils ne s’en contenteront pas, non.",
+                "Ce qu’ils veulent, c’est être prêts à commettre un véritable… ZOMBICIDE",
+                "",
+                "Différents scénarios sont possibles, durée de la partie variable selon le scénario"
+            ]
+        },
+        {
+            "name": "Colons de Catane",
+            "image": "catane.jpg",
+            "person": "Loïs Chabrand",
+            "type": "Jeu de stratégie",
+            "players": {"min":3,"max":4},
+            "duration": {"min":60,"max":90},
+            "description":[
+                "À vous les joies et les peines de l'exploration de l'île de Catane. Construisez vos villes, vos routes, en profitant au mieux des ressources de cette île si accueillante tout en commerçant avec vos voisins.",
+                "Et ce n'est pas la présence du seul brigand de l'île, le terrible chevalier noir, qui va retenir vos ardeurs de colonisateurs.",
+                "Une mécanique fluide et bien pensée, des règles simples, des parties courtes (pour un jeu de stratégie) et la non-élimination des joueurs en cours de partie"
+            ]
+        },
+        {
+            "name": "Objectif Catane",
+            "image": "objectif_catane.jpg",
+            "person": "Loïs Chabrand",
+            "type": "Jeu de stratégie",
+            "players": {"min":2,"max":2},
+            "duration": {"min":60,"max":90},
+            "description":[
+                "Traversez l'espace afin d'établir des colonies et des contacts commerciaux. Au gré de votre voyage, vous rencontrerez des pirates et remplissez des missions pour le Conseil Galactique.",
+                "Attention, si les mécaniques de production / gestion des ressources similaires à Catane, il s'agit d'un jeu complêtement à part."
+            ]
+        },
+        {
+            "name": "Code Names Images",
+            "image": "Codenames_images.jpg",
+            "person": "Séb Lamaison",
+            "type": "Jeu d'ambiance",
+            "players": {"min":4,"max":8},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Codenames (<a href='#CodeNames'>ici</a>) en version images !",
+                "Un peu plus accessible que la version classique (pour peu que les images ne vous retournent pas le cerveau...)",
+                "Possibilité de combiner les 2 jeux !!!"
+            ]
+        },
+        {
+            "name": "Top Ten",
+            "image": "top_ten.png",
+            "person": "Séb Lamaison",
+            "type": "Jeu d'ambiance",
+            "players": {"min":4,"max":9},
+            "duration": {"min":20,"max":30},
+            "description":[
+                "Répondez tous à l’un des thèmes (drôles ou étonnants) en fonction de votre numéro (entre 1 et 10). Ensuite, l’un de vous tente de remettre toutes ces réponses dans le bon ordre pour faire gagner l’équipe !",
+                "500 thèmes variés et délirants qui vous feront inventer, raconter et mimer n’importe quoi !"
+            ]
+        },
+        {
+            "name": "Akropolis",
+            "image": "akropolis.jpg",
+            "person": "Séb Lamaison",
+            "type": "Jeu de placement de tuiles",
+            "players": {"min":2,"max":4},
+            "duration": {"min":30,"max":45},
+            "description":[
+                "Au coeur de l'antique Méditerranée, des cités rivales cherchent à s'attirer richesse et gloire.",
+                "Les plus talentueux architectes de la Grèce antique s'attèlent à la tâche. Habitations, temples, marchés, jardins, casernes… Autant de quartiers qui permettront à votre ville de croître et se démarquer. Mais vos constructions doivent respecter une certaine harmonie et des règles bien précises pour espérer voir grimper le prestige de votre cité.",
+                "La pierre reste le nerf de la guerre. Prenez soin de disposer de suffisamment de carrières et n'oubliez pas de construire en étage pour élever votre cité vers les cieux."
+            ]
+        },
+        {
+            "name": "Celestia",
+            "image": "celestia.jpg",
+            "person": "Séb Lamaison",
+            "type": "Jeu de stop ou encore",
+            "players": {"min":2,"max":6},
+            "duration": {"min":30,"max":30},
+            "description":[
+                "Embarquez dans un aéronef avec une équipe d'aventuriers pour effectuer de nombreux voyages dans les cités de Celestia et récupérer leurs merveilleux trésors.",
+                "Lors de chaque tour un joueur est le capitaine et lance de 2 à 4 dés pour déterminer les dangers qu'il doit affronter. Il devra jouer les cartes correspondantes pour continuer le voyage et arriver à la cité suivante.",
+                "Avant que le capitaine ne joue, chaque passager doit décider s’il reste ou non dans l'aéronef :<br>- descendre, c’est s’assurer les points de victoire atteint en explorant la cité.<br>- rester, c’est tenter le voyage jusqu'à la cité suivante pour récupérer des trésors plus précieux.",
+                "Mais attention : si le capitaine est incapable de jouer les bonnes cartes, c’est le crash ! Tout les passagers rentrent bredouille et on recommence un voyage avec tous les joueurs à bord."
+            ]
+        }
+    ]
+}
