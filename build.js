@@ -16,7 +16,9 @@ postcss([ autoprefixer ]).process(sassResult.css, { from: undefined}).then(resul
 });
 
 const pugOptions = JSON.parse('{"pretty":true}');
-const dataJson = JSON.parse(fs.readFileSync("data.json"));
+let dataJson = JSON.parse(fs.readFileSync("data.json"));
+dataJson.games.sort((a,b) => a.name > b.name ? 1 : -1);
+
 let computedJson = merge(pugOptions,dataJson);
 
 let html = pug.renderFile("index.pug",computedJson); 
