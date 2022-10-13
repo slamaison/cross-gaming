@@ -24,7 +24,7 @@ h1 {
     color: #212529;
 
     max-width: 1000px;
-    margin: 0 1rem;
+    margin: 0 .25rem;
 
     border: 2px solid var(--clr-primary);
     overflow: hidden;
@@ -36,11 +36,13 @@ h1 {
 
     display: grid;
     grid-template-areas: 
-        "name name name"
-        "person person person"
-        "img img img"
-        "type players duration"
-        "description description description";
+        "name"
+        "person"
+        "img"
+        "type"
+        "players"
+        "duration"
+        "description";
 
     @media (min-width: 1000px) {
         grid-template-areas: 
@@ -137,7 +139,9 @@ h1 {
 
 .centered-mobile{
     text-align: center;
+    justify-content: center;
     @media (min-width: 1000px) {
         text-align: left;
+        justify-content: left;
     }
 }

@@ -17,12 +17,11 @@ mixin playersToString(min,max)
 
 mixin durationToString(min,max)
     if min === max
-        | Environ 
+        | ≃&nbsp;
         +simplifyDuration(min)
     else if (min < 60 && max < 60)
-        | De !{min} à !{max} minutes
+        | !{min} à !{max} minutes
     else
-        | De&nbsp;
         +simplifyDuration(min)
         | &nbsp;à&nbsp;
         +simplifyDuration(max)
