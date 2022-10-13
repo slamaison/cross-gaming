@@ -183,7 +183,7 @@
         },
         {
             "name": "Top Ten",
-            "image": "top_ten.png",
+            "image": "top_ten.jpg",
             "person": "Séb Lamaison",
             "type": "Jeu d'ambiance",
             "players": {"min":4,"max":9},

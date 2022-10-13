@@ -9,6 +9,7 @@ body{
 }
 
 h1 {
+    margin: 2rem 0;
     text-align: center;
 }
 
@@ -62,10 +63,13 @@ h1 {
             margin: 0;
             border-right: 2px solid var(--clr-primary);
         }
+
+        padding: 0;
         
         img{
             width: 100%;
-            object-fit: contain;
+            height: 100%;
+            object-fit: cover;
         }
     }
 
