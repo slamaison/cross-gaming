@@ -222,15 +222,16 @@
             ]
         },
         {
-            "name": "Turing Machine",
-            "image": "turing_machine.jpg",
+            "name": "Loups-garous de Thiercelieux",
+            "image": "loups_garous.jpg",
             "person": "Séb Lamaison",
-            "type": "Jeu de déduction",
-            "players": {"min":1,"max":4},
-            "duration": {"min":15,"max":30},
+            "type": "Jeu à roles secrets",
+            "players": {"min":6,"max":24},
+            "duration": {"min":30,"max":30},
             "description":[
-                "Turing Machine est un jeu de déduction compétitif unique en son genre. Retrouvez le code secret à l’aide d’un ordinateur « mécanique » fonctionnant avec uniquement des cartes perforées.",
-                "Trouver le code secret en premier, en interrogeant astucieusement la machine !"
+                "Les Loups-garous de Thiercelieux est un jeu de société d'ambiance dans lequel chaque joueur incarne un villageois ou un loup-garou, et dont le but est :",
+                "- pour les villageois (dont certains ont des pouvoirs ou des particularités) : démasquer et tuer tous les loups-garous",
+                "- pour les loups-garous : d'éliminer tous les villageois et ne pas se faire démasquer"
             ]
         }
     ]
