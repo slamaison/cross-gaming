@@ -220,6 +220,18 @@
                 "Avant que le capitaine ne joue, chaque passager doit décider s’il reste ou non dans l'aéronef :<br>- descendre, c’est s’assurer les points de victoire atteint en explorant la cité.<br>- rester, c’est tenter le voyage jusqu'à la cité suivante pour récupérer des trésors plus précieux.",
                 "Mais attention : si le capitaine est incapable de jouer les bonnes cartes, c’est le crash ! Tout les passagers rentrent bredouille et on recommence un voyage avec tous les joueurs à bord."
             ]
+        },
+        {
+            "name": "Turing Machine",
+            "image": "turing_machine.jpg",
+            "person": "Séb Lamaison",
+            "type": "Jeu de déduction",
+            "players": {"min":1,"max":4},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Turing Machine est un jeu de déduction compétitif unique en son genre. Retrouvez le code secret à l’aide d’un ordinateur « mécanique » fonctionnant avec uniquement des cartes perforées.",
+                "Trouver le code secret en premier, en interrogeant astucieusement la machine !"
+            ]
         }
     ]
 }
