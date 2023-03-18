@@ -233,6 +233,18 @@
                 "- pour les villageois (dont certains ont des pouvoirs ou des particularités) : démasquer et tuer tous les loups-garous",
                 "- pour les loups-garous : d'éliminer tous les villageois et ne pas se faire démasquer"
             ]
+        },
+        {
+            "name": "Perudo",
+            "image": "perudo.jpg",
+            "person": "Séb Lamaison",
+            "type": "Jeu de bluff / enchères",
+            "players": {"min":2,"max":6},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Dans Perudo, vous allez devoir faire preuve de ruse et d'habileté pour tromper vos adversaires (accompagné d'une pointe de chance). Cachez vos 5 dés sous votre gobelet puis au top, secouez-le. Seul vous saurez quel tirage vous avez obtenu.",
+                "C'est alors que le bluff peut commencer ! Le principe du jeu consiste à déterminer combien de dés d'une même face il y a sur l'ensemble des dés de tous les joueurs. Vous connaissez les vôtres mais devez déterminer ceux de vos adversaires selon leurs annonces, leurs attitudes et comportements."
+            ]
         }
     ]
 }
