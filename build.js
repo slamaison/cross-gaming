@@ -15,11 +15,27 @@ postcss([ autoprefixer ]).process(sassResult.css, { from: undefined}).then(resul
     fs.createWriteStream('docs/css/style.min.css.map').write(Buffer.from(sassResult.map));
 });
 
-const pugOptions = JSON.parse('{"pretty":true}');
+
 let dataJson = JSON.parse(fs.readFileSync("data.json"));
-dataJson.games.sort((a,b) => a.name > b.name ? 1 : -1);
 
-let computedJson = merge(pugOptions,dataJson);
+const broughtGames = dataJson.setup.map(e => e.game);
 
-let html = pug.renderFile("index.pug",computedJson); 
+broughtGames.forEach(e => {
+  let game = dataJson.games.find(g => g.name === e)
+  if(!game){
+    console.error("Game " + e + " not found !")
+  }
+});
+
+let games = dataJson.games.filter(g => broughtGames.includes(g.name))
+games.sort((g1,g2) => g1.name > g2.name ? 1 : -1);
+games.forEach(g => {
+  g.person = dataJson.setup.find(e => e.game == g.name).person
+});
+
+
+const cfg = JSON.parse('{"pretty":true}');
+cfg.games = games;
+
+let html = pug.renderFile("index.pug",cfg); 
 fs.outputFileSync("docs/index.html",html);

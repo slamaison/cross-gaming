@@ -1,9 +1,58 @@
 {
+    "setup":[
+        {
+            "game": "Splendor Duel",
+            "person" : "Maureen Perrin"
+        },
+        {
+            "game": "Code Names",
+            "person" : "Maureen Perrin"
+        },
+        {
+            "game": "7 Wonders",
+            "person" : "Maureen Perrin"
+        },
+        {
+            "game": "Code Names Images",
+            "person" : "Séb Lamaison"
+        },
+        {
+            "game": "Love Letter",
+            "person" : "Quentin Hiss"
+        },
+        {
+            "game": "Citadelles",
+            "person" : "Quentin Hiss"
+        },
+        {
+            "game": "Gosu Tactics",
+            "person" : "Quentin Hiss"
+        },
+        {
+            "game": "Perudo",
+            "person" : "Quentin Hiss / Séb Lamaison"
+        },
+        {
+            "game": "The Game",
+            "person" : "Quentin Hiss"
+        },
+        {
+            "game": "Loups-garous de Thiercelieux",
+            "person" : "Séb Lamaison"
+        },
+        {
+            "game": "Celestia",
+            "person" : "Séb Lamaison"
+        },
+        {
+            "game": "Akropolis",
+            "person" : "Séb Lamaison"
+        }
+    ],
     "games":[
         {
             "name": "Skyjo",
             "image": "skyjo.jpg",
-            "person": "Olivier Beau",
             "type": "Jeu de cartes",
             "players":{"min":2,"max":8},
             "duration": {"min":30,"max":30},
@@ -15,7 +64,6 @@
         {
             "name": "6 qui prend !",
             "image": "6_qui_prend.jpg",
-            "person": "Olivier Beau",
             "type": "Jeu de cartes",
             "players": {"min":2,"max":10},
             "duration": {"min":45,"max":45},
@@ -27,7 +75,6 @@
         {
             "name": "The Game",
             "image": "the_game.jpg",
-            "person": "Quentin Hiss",
             "type": "Jeu de cartes collaboratif",
             "players": {"min":1,"max":5},
             "duration": {"min":30,"max":30},
@@ -39,7 +86,6 @@
         {
             "name": "Gosu Tactics",
             "image": "gosu_tactics.jpg",
-            "person": "Quentin Hiss",
             "type": "Jeu de cartes",
             "players": {"min":2,"max":4},
             "duration": {"min":45,"max":45},
@@ -51,7 +97,6 @@
         {
             "name": "Dragons",
             "image": "dragons.jpg",
-            "person": "Quentin Hiss",
             "type": "Cartes / collection / ressources",
             "players": {"min":2,"max":8},
             "duration": {"min":120,"max":120},
@@ -63,7 +108,6 @@
         {
             "name": "Detective Club",
             "image": "detective_club.jpg",
-            "person": "Jean Herbaut",
             "type": "Jeu à rôle caché",
             "players": {"min":4,"max":8},
             "duration": {"min":30,"max":60},
@@ -78,7 +122,6 @@
         {
             "name": "Bang!",
             "image": "bang.jpg",
-            "person": "Ewald Janin / Julien Munch",
             "type": "Jeu de cartes à rôle caché",
             "players": {"min":2,"max":7},
             "duration": {"min":30,"max":60},
@@ -91,7 +134,6 @@
         {
             "name": "The Mind Extreme",
             "image": "the_mind_extreme.jpg",
-            "person": "Ewald Janin",
             "type": "Jeu de coopération télépathique",
             "players": {"min":2,"max":4},
             "duration": {"min":20,"max":20},
@@ -105,7 +147,6 @@
         {
             "name": "Code Names",
             "image": "Codenames.jpg",
-            "person": "Maureen Perrin et Sathya Bin",
             "type": "Jeu d'ambiance",
             "players": {"min":2,"max":8},
             "duration": {"min":15,"max":30},
@@ -119,7 +160,6 @@
         {
             "name": "Dixit",
             "image": "dixit.jpg",
-            "person": "Marion Scala",
             "type": "Jeu d'ambiance",
             "players": {"min":3,"max":8},
             "duration": {"min":30,"max":30},
@@ -132,7 +172,6 @@
         {
             "name": "Zombicide Rue Morgue",
             "image": "Zombicide-Rue-Morgue.jpg",
-            "person": "Julien Munch",
             "type": "Jeu de stratégie co-op scénarisé",
             "players": {"min":2,"max":10},
             "duration": {"min":30,"max":60},
@@ -147,7 +186,6 @@
         {
             "name": "Colons de Catane",
             "image": "catane.jpg",
-            "person": "Loïs Chabrand",
             "type": "Jeu de stratégie",
             "players": {"min":3,"max":4},
             "duration": {"min":60,"max":90},
@@ -160,7 +198,6 @@
         {
             "name": "Objectif Catane",
             "image": "objectif_catane.jpg",
-            "person": "Loïs Chabrand",
             "type": "Jeu de stratégie",
             "players": {"min":2,"max":2},
             "duration": {"min":60,"max":90},
@@ -172,7 +209,6 @@
         {
             "name": "Code Names Images",
             "image": "Codenames_images.jpg",
-            "person": "Séb Lamaison",
             "type": "Jeu d'ambiance",
             "players": {"min":4,"max":8},
             "duration": {"min":15,"max":30},
@@ -185,7 +221,6 @@
         {
             "name": "Top Ten",
             "image": "top_ten.jpg",
-            "person": "Séb Lamaison",
             "type": "Jeu d'ambiance",
             "players": {"min":4,"max":9},
             "duration": {"min":20,"max":30},
@@ -197,7 +232,6 @@
         {
             "name": "Akropolis",
             "image": "akropolis.jpg",
-            "person": "Séb Lamaison",
             "type": "Jeu de placement de tuiles",
             "players": {"min":2,"max":4},
             "duration": {"min":30,"max":45},
@@ -210,7 +244,6 @@
         {
             "name": "Celestia",
             "image": "celestia.jpg",
-            "person": "Séb Lamaison",
             "type": "Jeu de stop ou encore",
             "players": {"min":2,"max":6},
             "duration": {"min":30,"max":30},
@@ -224,7 +257,6 @@
         {
             "name": "Loups-garous de Thiercelieux",
             "image": "loups_garous.jpg",
-            "person": "Séb Lamaison",
             "type": "Jeu à roles secrets",
             "players": {"min":6,"max":24},
             "duration": {"min":30,"max":30},
@@ -237,13 +269,55 @@
         {
             "name": "Perudo",
             "image": "perudo.jpg",
-            "person": "Séb Lamaison",
             "type": "Jeu de bluff / enchères",
             "players": {"min":2,"max":6},
             "duration": {"min":15,"max":30},
             "description":[
                 "Dans Perudo, vous allez devoir faire preuve de ruse et d'habileté pour tromper vos adversaires (accompagné d'une pointe de chance). Cachez vos 5 dés sous votre gobelet puis au top, secouez-le. Seul vous saurez quel tirage vous avez obtenu.",
                 "C'est alors que le bluff peut commencer ! Le principe du jeu consiste à déterminer combien de dés d'une même face il y a sur l'ensemble des dés de tous les joueurs. Vous connaissez les vôtres mais devez déterminer ceux de vos adversaires selon leurs annonces, leurs attitudes et comportements."
+            ]
+        },
+        {
+            "name": "Splendor Duel",
+            "image": "splendor_duel.jpg",
+            "type": "Jeu de collecte",
+            "players": {"min":2,"max":2},
+            "duration": {"min":30,"max":60},
+            "description":[
+                "Affrontez une guilde rivale dans une course à la victoire. Prenez des jetons Gemme et Perle sur le plateau commun, puis achetez des cartes, obtenez des bonus, des faveurs royales et du prestige."
+            ]
+        },
+        {
+            "name": "7 Wonders",
+            "image": "7_wonders.jpg",
+            "type": "Jeu de développement de civilisation",
+            "players": {"min":3,"max":7},
+            "duration": {"min":30,"max":60},
+            "description":[
+                "Le jeu le plus primé au monde !",
+                "Prenez la tête de l'une des sept grandes cités du monde antique et laissez votre empreinte dans l'histoire des civilisations."
+            ]
+        },
+        {
+            "name": "Love Letter",
+            "image": "love_letter.jpg",
+            "type": "Jeu de bluff / déduction",
+            "players": {"min":2,"max":6},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Soyez le plus malin pour faire parvenir votre lettre d'amour à votre bien aimée !"
+            ]
+        },
+        {
+            "name": "Citadelles",
+            "image": "citadelles.jpg",
+            "type": "Jeu de bluff / intrigues / stratégie",
+            "players": {"min":2,"max":8},
+            "duration": {"min":45,"max":60},
+            "description":[
+                "Bâtissez une cité prestigieuse avant que vos adversaires ne parviennent à construire la leur.",
+                "Pour développer votre ville et de nouveaux quartiers, il vous faudra bien sûr de l'or, mais aussi le soutien des notables locaux, roi, échevin, cardinal, patricien ou archiviste.",
+                "Et parfois aussi de la lie de la cité : voleur, espion, assassin ou sorcière..."
             ]
         }
     ]
