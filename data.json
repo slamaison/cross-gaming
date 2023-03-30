@@ -48,6 +48,11 @@
             "game": "Akropolis",
             "person" : "Séb Lamaison"
         }
+        ,
+        {
+            "game": "Turing Machine",
+            "person" : "Séb Lamaison"
+        }
     ],
     "games":[
         {
@@ -318,6 +323,16 @@
                 "Bâtissez une cité prestigieuse avant que vos adversaires ne parviennent à construire la leur.",
                 "Pour développer votre ville et de nouveaux quartiers, il vous faudra bien sûr de l'or, mais aussi le soutien des notables locaux, roi, échevin, cardinal, patricien ou archiviste.",
                 "Et parfois aussi de la lie de la cité : voleur, espion, assassin ou sorcière..."
+            ]
+        },
+        {
+            "name": "Turing Machine",
+            "image": "turing_machine.jpg",
+            "type": "Jeu de déduction",
+            "players": {"min":1,"max":4},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Interroger la machine grâce à un ordinateur mécanique composé de cartes perforées, et soyez le premier à trouver le code secret"
             ]
         }
     ]
