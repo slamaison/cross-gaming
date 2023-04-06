@@ -15,16 +15,44 @@ h1 {
 
 .games{
     display:grid;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media (min-width: 1000px) {
+        gap: 2rem;
+    }
+}
+
+.filters{
+    max-width: 1000px;
+    margin: 0 auto 4rem auto;
+
+    [class^='by_']{
+        display: flex;
+
+        > label {
+            width: 150px;
+        }
+
+        @media (min-width: 1000px) {
+            .filter {
+                display: flex;
+                gap: 2rem;
+            }
+        }
+    }
 }
 
 .game{
-    background-color: white;
-    color: #212529;
+    &.hidden{
+        display: none;
+    }
 
-    max-width: 1000px;
-    margin: 0 .25rem;
+    background-color: white;
+    color: #212529;  
 
     border: 2px solid var(--clr-primary);
     overflow: hidden;
@@ -54,22 +82,23 @@ h1 {
     }
 
     .image{
-        grid-area: img;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
 
         @media (min-width: 1000px) {
-            border-right: 2px solid var(--clr-primary);
-        }
-
-        padding: 0;
+            grid-area: img;
         
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-right: 2px solid var(--clr-primary);
+            padding: 0;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 

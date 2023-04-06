@@ -6,7 +6,7 @@
         },
         {
             "game": "Code Names",
-            "person" : "Maureen Perrin"
+            "person" : "Maureen Perrin / Anthony Courtin"
         },
         {
             "game": "7 Wonders",
@@ -47,11 +47,58 @@
         {
             "game": "Akropolis",
             "person" : "Séb Lamaison"
-        }
-        ,
+        },
         {
             "game": "Turing Machine",
             "person" : "Séb Lamaison"
+        },
+        {
+            "game": "Top Ten",
+            "person" : "Séb Lamaison"
+        },
+        {
+            "game": "Codex",
+            "person" : "Anthony Courtin"
+        },
+        {
+            "game": "Complots",
+            "person" : "Anthony Courtin"
+        },
+        {
+            "game": "Hanabi",
+            "person" : "Anthony Courtin"
+        },
+        {
+            "game": "Exploding Kittens",
+            "person" : "Anthony Courtin"
+        },
+        {
+            "game": "The Crew",
+            "person" : "Anthony Courtin"
+        },
+        {
+            "game": "Bang!",
+            "person" : "Julien Munch"
+        },
+        {
+            "game": "The Mind",
+            "person" : "Apolline Hourcade"
+        },
+        {
+            "game": "Taggle",
+            "person" : "Apolline Hourcade"
+        },
+        {
+            "game": "6 qui prend !",
+            "person" : "Apolline Hourcade"
+        },
+        {
+            "game": "L'île interdite",
+            "person" : "Florian Aeschlimann"
+        },
+        {
+            "game": "Le désert interdit",
+            "person" : "Florian Aeschlimann"
         }
     ],
     "games":[
@@ -118,7 +165,7 @@
             "duration": {"min":30,"max":60},
             "description":[
                 "Un jeu d'ambiance malin et subtil, dans lequel imagination, improvisation et bluff seront vos alliés pour argumenter votre choix autour de somptueuses illustrations.",
-                "L’informateur choisit un mot en rapport avec deux cartes Preuve qu’il exposera aux yeux de tous et le note secrètement sur tous les carnets sauf un.",
+                "L'informateur choisit un mot en rapport avec deux cartes Preuve qu'il exposera aux yeux de tous et le note secrètement sur tous les carnets sauf un.",
                 "Les détectives consultent leurs carnets et poseront deux cartes en rapport avec le mot.",
                 "Le voleur observe les cartes jouées et improvise pour ne pas être démasqué.",
                 "Le mot est révélé, chacun argumente son choix de cartes puis les détectives votent pour désigner le voleur."
@@ -137,11 +184,23 @@
             ]
         },
         {
+            "name": "The Mind",
+            "image": "the_mind.png",
+            "type": "Jeu de coopération télépathique",
+            "players": {"min":2,"max":4},
+            "duration": {"min":20,"max":30},
+            "description":[
+                "The Mind contient des cartes numérotées de 1 à 100. Votre objectif sera de compléter collectivement tous les niveaux en constituant une suite croissante. ",
+                "Dans un niveau, chaque joueur reçoit une main de cartes égale au nombre de cartes du niveau : une carte dans le niveau 1, deux cartes dans le niveau 2, et ainsi de suite. Pour réussir un niveau, toutes les cartes doivent être jouée dans l'ordre. Chaque joueur connaît ses cartes, mais uniquement les siennes.",
+                "Aucune communication n'est admise, que ce soit oralement, par signes ou autres. Les participants se regardent simplement dans les yeux. Après ce moment de silence, après avoir jauger les cartes des autres joueurs, si une personnes juge que c'est son tour, il peut alors jouer sa carte la plus basse."
+            ]
+        },
+        {
             "name": "The Mind Extreme",
             "image": "the_mind_extreme.jpg",
             "type": "Jeu de coopération télépathique",
             "players": {"min":2,"max":4},
-            "duration": {"min":20,"max":20},
+            "duration": {"min":20,"max":30},
             "description":[
                 "Au début de la partie, chaque joueur se voit distribuer une carte, face cachée. Le jeu comporte 2 piles de cartes, une rouge et une blanche, chacune numérotée de 1 à 50",
                 "L'objectif est, sans communication entre les joueurs, d'arriver à empiler sur la table les cartes dans le bon ordre numérique. Quand un joueur pense que c'est à son tour de mettre une carte (en fonction du numéro de sa carte, que lui seul connaît), il doit la poser sur la table. À chaque manche, une carte de plus est distribuée à chaque joueur.",
@@ -156,7 +215,7 @@
             "players": {"min":2,"max":8},
             "duration": {"min":15,"max":30},
             "description":[
-                "Codenames est un jeu d’association d’idées dans lequel les joueurs, répartis en deux équipes, devront tour à tour faire deviner à leurs coéquipiers un ensemble de mots qui leur sont attribués.",
+                "Codenames est un jeu d'association d'idées dans lequel les joueurs, répartis en deux équipes, devront tour à tour faire deviner à leurs coéquipiers un ensemble de mots qui leur sont attribués.",
                 "Une seule règle : faire deviner avec un seul indice et un chiffre correspondant au nombre de mots à trouver.",
                 "Prenez garde de ne pas découvrir les mots de vos concurrents ou pire … le mot Piège.",
                 "Possibilité de combiner avec la version Images (<a href='#CodeNamesImages'>ici</a>) !!!"
@@ -170,7 +229,7 @@
             "duration": {"min":30,"max":30},
             "description":[
                 "Dixit est un jeu de société enchanteur qui vous invite à vous laisser porter par votre imagination. Découvrez 84 illustrations oniriques sur de grandes cartes et interprétez ces images énigmatiques.",
-                "Un joueur conteur sélectionne une carte de sa main et énonce un thème en rapport avec l’illustration. Les autres joueurs choisissent une carte de leur main qui leur évoque ce thème.",
+                "Un joueur conteur sélectionne une carte de sa main et énonce un thème en rapport avec l'illustration. Les autres joueurs choisissent une carte de leur main qui leur évoque ce thème.",
                 "On mélange puis on révèle toutes les images : les joueurs doivent retrouver la carte du conteur."
             ]
         },
@@ -182,8 +241,8 @@
             "duration": {"min":30,"max":60},
             "description":[
                 "Regroupez-vous. Équipez-vous. Gagnez des niveaux. TUEZ-LES !",
-                "Personne ne sait comment ça a commencé, mais c’est bien là et il faut faire avec : les morts se relèvent. Affamés. De chair humaine. Les états et les sociétés se sont effondrées en un instant, ce dont les Survivants se moquent bien. Car après tout, ils cherchent à s’en sortir, le reste, ils s’en foutent. Ces Survivants sont en quête d’un refuge, d’équipement. Mais ils ne s’en contenteront pas, non.",
-                "Ce qu’ils veulent, c’est être prêts à commettre un véritable… ZOMBICIDE",
+                "Personne ne sait comment ça a commencé, mais c'est bien là et il faut faire avec : les morts se relèvent. Affamés. De chair humaine. Les états et les sociétés se sont effondrées en un instant, ce dont les Survivants se moquent bien. Car après tout, ils cherchent à s'en sortir, le reste, ils s'en foutent. Ces Survivants sont en quête d'un refuge, d'équipement. Mais ils ne s'en contenteront pas, non.",
+                "Ce qu'ils veulent, c'est être prêts à commettre un véritable… ZOMBICIDE",
                 "",
                 "Différents scénarios sont possibles, durée de la partie variable selon le scénario"
             ]
@@ -230,8 +289,8 @@
             "players": {"min":4,"max":9},
             "duration": {"min":20,"max":30},
             "description":[
-                "Répondez tous à l’un des thèmes (drôles ou étonnants) en fonction de votre numéro (entre 1 et 10). Ensuite, l’un de vous tente de remettre toutes ces réponses dans le bon ordre pour faire gagner l’équipe !",
-                "500 thèmes variés et délirants qui vous feront inventer, raconter et mimer n’importe quoi !"
+                "Répondez tous à l'un des thèmes (drôles ou étonnants) en fonction de votre numéro (entre 1 et 10). Ensuite, l'un de vous tente de remettre toutes ces réponses dans le bon ordre pour faire gagner l'équipe !",
+                "500 thèmes variés et délirants qui vous feront inventer, raconter et mimer n'importe quoi !"
             ]
         },
         {
@@ -255,8 +314,8 @@
             "description":[
                 "Embarquez dans un aéronef avec une équipe d'aventuriers pour effectuer de nombreux voyages dans les cités de Celestia et récupérer leurs merveilleux trésors.",
                 "Lors de chaque tour un joueur est le capitaine et lance de 2 à 4 dés pour déterminer les dangers qu'il doit affronter. Il devra jouer les cartes correspondantes pour continuer le voyage et arriver à la cité suivante.",
-                "Avant que le capitaine ne joue, chaque passager doit décider s’il reste ou non dans l'aéronef :<br>- descendre, c’est s’assurer les points de victoire atteint en explorant la cité.<br>- rester, c’est tenter le voyage jusqu'à la cité suivante pour récupérer des trésors plus précieux.",
-                "Mais attention : si le capitaine est incapable de jouer les bonnes cartes, c’est le crash ! Tout les passagers rentrent bredouille et on recommence un voyage avec tous les joueurs à bord."
+                "Avant que le capitaine ne joue, chaque passager doit décider s'il reste ou non dans l'aéronef :<br>- descendre, c'est s'assurer les points de victoire atteint en explorant la cité.<br>- rester, c'est tenter le voyage jusqu'à la cité suivante pour récupérer des trésors plus précieux.",
+                "Mais attention : si le capitaine est incapable de jouer les bonnes cartes, c'est le crash ! Tout les passagers rentrent bredouille et on recommence un voyage avec tous les joueurs à bord."
             ]
         },
         {
@@ -333,6 +392,96 @@
             "duration": {"min":15,"max":30},
             "description":[
                 "Interroger la machine grâce à un ordinateur mécanique composé de cartes perforées, et soyez le premier à trouver le code secret"
+            ]
+        },
+        {
+            "name": "Codex",
+            "image": "codex.png",
+            "type": "Jeu de placement",
+            "players": {"min":2,"max":4},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Vous êtes chargé de poursuivre le travail du moine enlumineur Tybor Kwelein. Pour cela, assemblez les pages du Codex Naturalis, le manuscrit secret qui recense les espèces des quatre règnes vivants dans les forêts primaires. Placez vos cartes en fonction des ressources qu'elles vous apportent pour remplir les objectifs et élaborer le plus riche des manuscrits.",
+                "Serez-vous prêt à recouvrir et perdre une espèce pour développer votre manuscrit ?"
+            ]
+        },
+        {
+            "name": "Complots",
+            "image": "complots.png",
+            "type": "Jeu de bluff",
+            "players": {"min":2,"max":8},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Une ville corrompue, soumise aux vices et avarices, est sous le contrôle de vils personnages. Le pouvoir est vacant, à vous de vous en emparer.",
+                "Vous disposez en secret de l'aide de deux personnages et par la ruse et le bluff, vous n'aurez qu'une obsession : éliminer tous les autres de votre chemin."
+            ]
+        },
+        {
+            "name": "Hanabi",
+            "image": "hanabi.jpg",
+            "type": "Jeu de cartes collaboratif",
+            "players": {"min":2,"max":8},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Dans Hanabi, les joueurs incarnent une équipe d'artificiers ayant la charge d'organiser une représentation spectaculaire. C'est le grand jour, tout est prêt. Mais voilà, un imprévu survient. Toutes les mèches ont été mélangées. Le public commence à affluer et il ne faut pas les décevoir.",
+                "Il faut donc trouver le moyen de tout remettre dans l'ordre afin de pouvoir tirer les magnifiques feux d'artifice que tout le monde attend."
+            ]
+        },
+        {
+            "name": "Exploding Kittens",
+            "image": "exploding_kittens.png",
+            "type": "Jeu de cartes",
+            "players": {"min":2,"max":5},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "À tour de rôle, les joueurs piochent des cartes du paquet jusqu'à ce qu'un joueur révèle un chaton explosif, provoquant sa mort et sa défaite pour la partie en cours. ",
+                "Les autres cartes permettent aux joueurs de se protéger des déflagrations, de forcer les autres à piocher plus ou à regarder les prochaines cartes avant de remélanger le tout.",
+                "Le joueur qui a réussi à éviter toutes les explosions remporte la partie !"
+            ]
+        },
+        {
+            "name": "The Crew",
+            "image": "the_crew.jpg",
+            "type": "Jeu de cartes coopératif",
+            "players": {"min":3,"max":5},
+            "duration": {"min":15,"max":30},
+            "description":[
+                "Dans The Crew, les joueurs incarnent les membres d'un équipage spatial en voyage vers une mystérieuse planète. Mais le périple s'annonce épique, car il faudra accomplir 50 missions de plus en plus périlleuses avant de pouvoir atteindre la destination.",
+                "Pour remporter une mission dans The Crew, chaque joueur doit accomplir les tâches qui lui sont assignées. À chaque tour de jeu, les joueurs jouent une unique carte de leur main pour former un pli. Le joueur qui veut accomplir sa tâche doit non seulement remporter le pli, mais aussi s'assurer que la carte correspondant à la tâche soit présente dans le pli ! 100 % coopération !"
+            ]
+        },
+        {
+            "name": "Taggle",
+            "image": "taggle.jpg",
+            "type": "Jeu d'ambiance",
+            "players": {"min":3,"max":12},
+            "duration": {"min":20,"max":30},
+            "description":[
+                "Taggle est un jeu d'ambiance et d'expression qui vous donne une bonne occasion de l'ouvrir.",
+                "Le jeu Taggle est un générateur de répliques qui fera de vous et vos amis les rois de la répartie. Pour jouer, il suffit qu'une personne lise une carte 'réflexion' (les cocottes)... et qu'un autre réponde du tac au tac avec une carte 'réplique' (les haches)!"
+            ]
+        },
+        {
+            "name": "L'île interdite",
+            "image": "l_ile_interdite.jpg",
+            "type": "Jeu de stratégie coopératif",
+            "players": {"min":2,"max":4},
+            "duration": {"min":30,"max":30},
+            "description":[
+                "L'île Interdite est un petit jeu coopératif. Votre équipe sera-t-elle la première à y ouvrir une brèche, prendre les trésors et en sortir en vie ?Votre équipe d'aventuriers doit travailler collectivement pour éviter que l'Île Interdite ne sombre trop rapidement, afin d'avoir suffisamment de temps pour prendre les quatre trésors.",
+                "Une fois ceux-ci récupérés, vous devez vous rendre à l'héliport et vous échapper par hélicoptère pour gagner. Mais, si l'île sombre avant que vous n'ayez tout accompli, la mission se solde par un échec !"
+            ]
+        },
+        {
+            "name": "Le désert interdit",
+            "image": "le_desert_interdit.jpg",
+            "type": "Jeu de plateau coopératif",
+            "players": {"min":2,"max":5},
+            "duration": {"min":30,"max":45},
+            "description":[
+                "Le Désert Interdit est un jeu de plateau coopératif. En perdition dans le désert, votre seule chance de survivre est de retrouver une machine volante légendaire au milieu des ruines d'une cité ensablée.",
+                "Dans Désert Interdit, vous devrez en équipe vous accorder pour faire les meilleurs choix et tirer parti des capacités de chacun pour tenter d'échapper à une violente tempête de sable.",
+                "Arriverez-vous à décoller dans la machine volante ou périrez-vous enlisés dans le désert interdit ?"
             ]
         }
     ]

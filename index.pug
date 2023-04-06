@@ -39,6 +39,20 @@ html(lang="fr")
     body
         .header
             h1 Cross Gaming Night
+        .filters
+            h2 Filtrer
+            .by_duration
+                label Par durée :
+                div.filter
+                    div
+                        input.filter_item(checked type="checkbox" name="duration_low")
+                        label(for="duration_low") Moins de 30 minutes
+                    div
+                        input.filter_item(checked type="checkbox" name="duration_medium")
+                        label(for="duration_medium") Entre 30 minutes et 1 heure
+                    div 
+                        input.filter_item(checked type="checkbox" name="duration_high")
+                        label(for="duration_high") Plus d'1 heure
         .games
             each game in games
                 .game(id=game.name.split(" ").join("") data-duration-min=game.duration.min data-duration-max=game.duration.max  data-players-min=game.players.min data-players-max=game.players.max)
@@ -54,3 +68,5 @@ html(lang="fr")
                     .description
                         each paragraph in game.description 
                             p !{paragraph}
+    
+        script(src='js/main.js')
